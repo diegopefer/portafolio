@@ -15,76 +15,68 @@
   </head>
   <body data-spy="scroll" data-target="#navbarResponsive">
 
-    <!-- SECCION INICIO -->
-    <div id="home">
-
-      
-      <!-- barra navegacion INICIO -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-
-          <a class="navbar-brand" href="#">DIEGO PENA</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav p-2 ml-auto">
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#home">INICIO</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#about">SOBRE MÍ</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#skills">HABILIDADES</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#proyects">PROYECTOS</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#contact">CONTACTO</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- barra de navegacion fin -->
-
-      <!-- landing page inicio -->
-      <header class="cabecera text-center">
-        <div class="container h-100">
-          <div class="row h-100 d-flex flex-column align-items-center justify-content-center text-center">
-            
-              <img src="img/foto-perfil.jpg" alt="Imagen perfil portafolio de Diego Pena" class="img-perfil rounded-circle mb-4">
-              <h1 class="font-weight-bold text-white mb-2">DIEGO PENA FERREIRA</h1>
-              <h3>DESARROLLADOR WEB</h3>
-              <ul class="list-inline mt-4">
-                <li class="list-inline-item mx-2">
-                  <a href=""><i class="fas fa-2x fa-envelope text-white mx-2"></i></a>
-                </li>
-                <li class="list-inline-item mx-2">
-                  <a href=" "><i class="fab fa-2x fa-linkedin-in text-white mx-2"></i></a>
-                </li>
-                <li class="list-inline-item mx-2">
-                  <a href=""><i class="fab fa-2x fa-github text-white mx-2"></i></a>
-                </li>
-              </ul>
-          </div>
-          
-        </div>
-      </header>
-      <!-- landing page fin -->
-      
-
-    </div>
-    <!-- SECCION SOBRE MÍ -->
-    <section id="about" class="offset text-white portfolio-section">
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <div class="row d-flex justify-content-center">
+
+        <a class="navbar-brand" href="#inicio">DIEGO PENA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav p-2 ml-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#inicio">INICIO</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#about">SOBRE MÍ</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#habilidades">HABILIDADES</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#proyectos">PROYECTOS</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  CABECERA -->
+    <header class="cabecera"  id="inicio">
+      <div class="container">
+        <div class="row d-flex flex-column align-items-center">
+          
+          <img src="img/foto-perfil.jpg" alt="Imagen perfil portafolio de Diego Pena" class="img-perfil rounded-circle mb-4">
+          <h1 class="font-weight-bold mb-2">DIEGO PENA FERREIRA</h1>
+          <h3>DESARROLLADOR WEB</h3>
+          <ul class="list-inline mt-4 rrss">
+            <li class="list-inline-item mx-2">
+              <a href="javascript:location='mailto:\u0064\u0069\u0065\u0067\u006f\u0070\u0065\u006e\u0066\u0065\u0072\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><i class="fas fa-2x fa-envelope mx-2"></i></a>
+            </li>
+            <li class="list-inline-item mx-2">
+              <a href="https://www.linkedin.com/in/diegopenaferreira" target="_blank"><i class="fab fa-2x fa-linkedin-in mx-2"></i></a>
+            </li>
+            <li class="list-inline-item mx-2">
+              <a href="https://github.com/diegopefer" target="_blank"><i class="fab fa-2x fa-github mx-2"></i></a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </header>
+
+    <!-- SECCION SOBRE MÍ -->
+    <section id="about" class="portfolio-section">
+      <div class="container">
+        <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h2 class="font-weight-bold">SOBRE MÍ</h2>
-            <hr class="underline-title border-white mb-4">
+            <hr class="underline-title">
               
             </hr>
          
@@ -110,111 +102,109 @@
             
           </div>
         </div>
-        
       </div>
 
     </section>
+
     <!-- SECCION HABILIDADES -->
-    <div id="skills" class="offset text-white portfolio-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="font-weight-bold text-center">HABILIDADES</h2>
-              <hr class="underline-title border-white mb-5">
-              <div class="row">
-                <div class="col-md-6">
-                  <h6 class="mb-1"><i class="fab fa-html5"></i> HTML5 / <i class="fab fa-css3"></i> CSS3</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <h6 class="mb-1"><i class="fab fa-php"></i> PHP</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+    <div id="habilidades" class="portfolio-section">
+      <div class="container">
+        <h2 class="font-weight-bold text-center">HABILIDADES</h2>
+        <hr class="underline-title">
 
-                  <h6 class="mb-1"><i class="fas fa-database"></i> SQL / <img src="img/mysql.svg" style="width: 1.1em;height: 1.1em;"/> MySQL</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h6 class="mb-1"><i class="fab fa-html5"></i> HTML5 / <i class="fab fa-css3"></i> CSS3</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h6 class="mb-1"><i class="fab fa-php"></i> PHP</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar font-weight-bold" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
 
-                  <h6 class="mb-1"><i class="fab fa-js-square"></i> JavaScript</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+            <h6 class="mb-1"><i class="fas fa-database"></i> SQL / <img src="img/mysql.svg" style="width: 1.1em;height: 1.1em;"/> MySQL</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar  font-weight-bold" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
 
-                  <h6 class="mb-1 d-flex flex-row align-items-center"><img src="img/jquery.svg" style="width: 1em;height: 1em;margin-right: 3px;"/> jQuery</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
+            <h6 class="mb-1"><i class="fab fa-js-square"></i> JavaScript</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar font-weight-bold" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
 
-                <div class="col-md-6">
-                  <h6 class="mb-1"><i class="fab fa-bootstrap"></i> Bootstrap</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+            <h6 class="mb-1 d-flex flex-row align-items-center"><img src="img/jquery.svg" style="width: 1em;height: 1em;margin-right: 3px;"/> jQuery</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar font-weight-bold" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
 
-    
-                  <h6 class="mb-1 d-flex flex-row align-items-center"><img src="img/cakephp.svg" style="width: 1em;height: 1em;margin-right: 3px;"/> CakePHP</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 55%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+          <div class="col-md-6">
+            <h6 class="mb-1"><i class="fab fa-bootstrap"></i> Bootstrap</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar font-weight-bold" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
 
-                  <h6 class="mb-1"><i class="fab fa-git-alt"></i> Git</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
 
-                  <h6 class="mb-1 d-flex flex-row align-items-center"><img src="img/responsive-design.svg" style="filter:invert(1); width: 1.2em;height: 1.2em; margin-right:3px"/> Responsive Design</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+            <h6 class="mb-1 d-flex flex-row align-items-center"><img src="img/cakephp.svg" style="width: 1em;height: 1em;margin-right: 3px;"/> CakePHP</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar font-weight-bold" role="progressbar" style="width: 55%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
 
-                  <h6 class="mb-1 d-flex flex-row align-items-center"><img src="img/seo.svg" style="filter:invert(1); width: 1.2em;height: 1.2em;margin-right:3px"/> SEO</h6>
-                  <div class="progress mb-3">
-                    <div class="progress-bar text-dark font-weight-bold" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
+            <h6 class="mb-1"><i class="fab fa-git-alt"></i> Git</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar font-weight-bold" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h6 class="mb-1 d-flex flex-row align-items-center"><img src="img/responsive-design.svg" style="width: 1.2em;height: 1.2em; margin-right:3px"/> Responsive Design</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar font-weight-bold" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h6 class="mb-1 d-flex flex-row align-items-center"><img src="img/seo.svg" style="width: 1.2em;height: 1.2em;margin-right:3px"/> SEO</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar font-weight-bold" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
         </div>
+      </div>
     </div>
+
     <!-- SECCION PROYECTOS -->
-    <div id="proyects" class="offset text-white portfolio-section">
+    <div id="proyectos" class="portfolio-section">
       <div class="container">
         <h2 class="font-weight-bold text-center">PROYECTOS</h2>
-        <hr class="underline-title border-white mb-5">
-        <div class="row">
+        <hr class="underline-title">
 
-          <div class="col-md-4">
-            <div class="proyect-item">
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="proyect-item shadow">
               <img src="img/edpap/e.jpg" class="img-fluid" alt="Página principal de Escuela de porteros Ángel y Pato">
               <div class="proyect-overlay">
-                <h5 class="text-dark font-weight-bold">ESCUELA PORTEROS ÁNGEL Y PATO</h5>
-                <h6 class="text-dark">DESARROLLO WEB</h6>
+                <h5 class="font-weight-bold">ESCUELA PORTEROS ÁNGEL Y PATO</h5>
+                <h6>DESARROLLO WEB</h6>
                 <a class="portfolio-btn" role="button" data-toggle="modal" data-target="#ventanaModalEdpap">LEER MÁS</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="proyect-item">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="proyect-item shadow">
               <img src="img/cathedra-formacion/c.jpg" class="img-fluid" alt="Página principal de Cathedra Formación">
               <div class="proyect-overlay">
-                <h5 class="text-dark font-weight-bold">CATHEDRA FORMACIÓN</h5>
-                <h6 class="text-dark">DESARROLLO WEB</h6>
+                <h5 class="font-weight-bold">CATHEDRA FORMACIÓN</h5>
+                <h6>DESARROLLO WEB</h6>
                 <a class="portfolio-btn" role="button" data-toggle="modal" data-target="#ventanaModalCathedra">LEER MÁS</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="proyect-item">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="proyect-item shadow">
               <img src="img/daeira/d.jpg" class="img-fluid" alt="Página principal de DAEIRA">
               <div class="proyect-overlay">
-                <h5 class="text-dark font-weight-bold">DAEIRA</h5>
-                <h6 class="text-dark">DESARROLLO WEB</h6>
+                <h5 class="font-weight-bold">DAEIRA</h5>
+                <h6>DESARROLLO WEB</h6>
                 <a class="portfolio-btn" role="button" data-toggle="modal" data-target="#ventanaModalDAEIRA">LEER MÁS</a>
               </div>
             </div>
@@ -251,10 +241,10 @@
                 </a>
               </div>
             </div>
-            <div class="modal-body pb-1 border-0 text-dark">
+            <div class="modal-body pb-1 border-0">
               <h5 class="modal-title font-weight-bold">ESCUELA DE PORTEROS ÁNGEL Y PATO</h5>
               <hr>
-              <p class="text-justify">La web proporciona información al cliente y que permite promocionar y dar visibilidad a una escuela centrada en el entrenamiento específico de porteros de fútbol, ofreciendo un diseño adaptable a diferentes dispositivos.</p>
+              <p class="text-justify">La web proporciona información al cliente permitiendo promocionar y dar visibilidad a una escuela centrada en el entrenamiento específico de porteros de fútbol, ofreciendo un diseño adaptable a diferentes dispositivos.</p>
               <p class="text-justify">Construída con CakePHP en el back-end para la gestión de múltiples datos (fotografías, vídeos, eventos, porteros, etc.) y en el diseño front-end Bootstrap y alguna funcionalidad con JavaScript.</p>
             </div>
             <div class="modal-footer py-1 border-0 d-flex justify-content-between">
@@ -299,7 +289,7 @@
               <h5 class="modal-title font-weight-bold">CATHEDRA FORMACIÓN</h5>
               <hr>
               <p class="text-justify">Cathedra Formación es una web para la academia con este mismo nombre, cuya función principal es informar a los usuarios sobre las ofertas formativas que se imparten, además de las novedades referentes a la academia. Se ha realizado una reconstrucción completa con el fin de mejorar su imagen, ofreciendo un diseño responsive para una mejor experiencia de navegación. </p>
-              <p class="text-justify">La programación back-end se ha realizado con CakePHP y el front-end con Bootstrap y JavaScript básico.</p>
+              <p class="text-justify">La programación del back-end se ha realizado con CakePHP y del front-end con Bootstrap y JavaScript básico.</p>
             </div>
             <div class="modal-footer py-1 border-0 d-flex justify-content-between">
               <a href="http://cathedraformacion.es" target="_blank" class="portfolio-btn"><i class="fas fa-external-link-alt mr-2"></i> VER SITIO</a>
@@ -355,10 +345,52 @@
       </div>
 
     </div>
-     <!-- SECCION CONTACTO -->
-     <div id="contact" class="offset text-white portfolio-section">
 
+    <!-- SECCION CONTACTO -->
+    <div id="contacto">
+      <div class="container">
+        <h2 class="font-weight-bold text-center">CONTACTO</h2>
+        <hr class="underline-title">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
+            <h6>¿Tienes alguna pregunta o propuesta?</h6>
+
+            <form action="https://formspree.io/f/moqpdweb" method="POST">
+              <input type="text" name="name" class="form-control mb-2" placeholder="Nombre" required>
+            
+              <input type="email" name="_replyto" class="form-control mb-2" placeholder="Email" required>
+              
+              <textarea name="message" class="form-control mb-2" rows="4" placeholder="Mensaje" required></textarea>
+          
+              <button type="submit" class="portfolio-btn float-right">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+          <ul class="list-inline mt-4 rrss">
+            <li class="list-inline-item mx-2">
+              <a href="javascript:location='mailto:\u0064\u0069\u0065\u0067\u006f\u0070\u0065\u006e\u0066\u0065\u0072\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><i class="fas fa-2x fa-envelope mx-2"></i></a>
+            </li>
+            <li class="list-inline-item mx-2">
+              <a href="https://www.linkedin.com/in/diegopenaferreira" target="_blank"><i class="fab fa-2x fa-linkedin-in mx-2"></i></a>
+            </li>
+            <li class="list-inline-item mx-2">
+              <a href="https://github.com/diegopefer" target="_blank"><i class="fab fa-2x fa-github mx-2"></i></a>
+            </li>
+          </ul>
+          <div>
+            DIEGO PENA <span><i class="far fa-copyright"></i> 2020</span>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -366,6 +398,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script>
+      $('#navbarResponsive').scrollspy({ target: '#navbar-example' });
+    </script>
+    <script>
+      $('html, body').animate({
+  scrollTop: $('section').offset().top
+}, 550);
+    </script>
 
   </body>
 </html>

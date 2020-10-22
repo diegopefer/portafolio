@@ -3,20 +3,47 @@ html{
     font-size: 15px;
 }
 body{
-    overflow: hidden;
     font-family: 'Titillium Web', sans-serif;
-    background: #020202;
+    overflow-x: hidden;
 }
 
-/* navegacion */
+/* buttons portfolio */
+.portfolio-btn{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 7px 14px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 62, 85);
+    color: rgb(255, 62, 85) !important;
+    transition: all 0.3s ease-in;
+}
+
+.portfolio-btn:hover{
+    text-decoration: none;
+    border: 1px solid rgb(255, 62, 85);
+    background-color: rgb(255, 62, 85);
+    color: rgb(255, 255, 255) !important;
+}
+
+/* lista redes sociales */
+.rrss a i{
+    color: rgb(255, 255, 255) !important;
+    transition: all .5s ease-in;
+}
+
+.rrss a i:hover{
+    color: rgb(255, 62, 85) !important;
+}
+
+/* barra de navegacion */
 .navbar{
     font-size: 1.1rem;
-    background: transparent !important;
-    color: #FFFFFF;
+    background-color: rgb(2, 29, 68) !important;
+    color: rgb(255, 255, 255);
 }
 
 .navbar-collapse{
-    background: #020202 !important;
+    background: rgb(2, 29, 68) !important;
 }
 
 .navbar-toggler:focus{
@@ -25,46 +52,53 @@ body{
 
 .navbar-brand{
     font-size: 1.5rem !important;
-    color: #21FDE7 !important;
+    color: rgb(255, 62, 85) !important;
     font-weight: 700;
+    transition: all .5s ease-in;
 }
 .navbar-brand:hover{
     
-    color: #FFFFFF !important;
+    color: rgb(255, 255, 255) !important;
    
 }
 
 .navbar-dark .navbar-nav .nav-link{
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 1.5px;
-    transition: background-size .5s;
+    transition: all .5s ease-in;
     
 }
 
 .navbar-dark .navbar-nav .nav-link.active{
-    color: #21FDE7;
+    color: rgb(255, 62, 85);
     background-size: 100% 1.5px;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
-    color: #21FDE7;
+    color: rgb(255, 62, 85);
     background-size: 100% 1.5px;
 }
 
-/* cabecera */
+/* CABECERA */
 
 .cabecera{
-        padding-top: 10rem;
-        padding-bottom: calc (10rem - 4rem );
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    background-color: rgb(2, 29, 68);
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
         
 }
 
 .cabecera img{
-    border: 0.4rem solid #FFFFFF;
+    border: 0.4rem solid rgb(255, 255, 255);
     width: 12rem;
     height: 12rem;
+    
 }
 
 .cabecera h1{
@@ -74,32 +108,40 @@ body{
 
 .cabecera h3{
     font-size: 1.25rem;
-    color: #21FDE7;
+    color:rgb(255, 62, 85);
 }
 
-.cabecera a i:hover{
-    color: #21FDE7 !important;
-    transition: all .7s ease;
-}
+
 
 /* SECCIONES */
 
 .portfolio-section{
-    padding: 8rem 0;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    color: rgb(2, 29, 68); 
+}
+
+.portfolio-section p{
+    color: rgb(2, 29, 68); 
 }
 
 .underline-title{
     max-width:3.25rem;
     border-width: 0.2rem;
+    background-color: rgb(2, 29, 68);
+    margin-bottom: 3rem;
 }
+
+
 /* 1.ABOUT */
 
 /* 2.HABILIDADES */
 .progress{
-    background-color: #FFFFFF;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(2, 29, 68);
 }
 .progress-bar{
-    background-color: #21FDE7;
+    background-color: rgb(255, 62, 85);
 }
 
 /* 3.PROYECTOS */
@@ -111,17 +153,6 @@ body{
     text-align: center;
     
 }
-
-/* .proyect-item img{
-    display: block;
-    transition: all 0.4s ease-in;
-} */
-/* 
-.proyect-item:hover img{
-    filter: grayscale(1) blur(3px);
-    transform: scale(1.2);
-    transform-origin: 50% 50%;
-} */
 
 .proyect-item .proyect-overlay{
     position: absolute;
@@ -146,35 +177,19 @@ body{
     
 }
 
-/* .proyect-overlay h5{
-    padding: 7px 14px;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    background-color: rgba(0,0,0, 0.5);
-}*/
-
-.portfolio-btn{
-    text-decoration: none;
-    font-size: 0.8rem;
-    padding: 7px 14px;
-    background-color: transparent;
-    border: 1px solid #21FDE7;
-    color: #21FDE7 !important;
-    transition: all 0.3s ease-in;
+.proyect-item:hover .proyect-overlay h5, .proyect-item:hover .proyect-overlay h6{
+    color: rgb(2, 29, 68);
+    padding: 0 1rem;
 }
 
-.portfolio-btn:hover{
-    text-decoration: none;
-    border: 1px solid #21FDE7;
-    background-color: #21FDE7;
-    color: #000000 !important;
+.proyect-item:hover .proyect-overlay h6{
+    margin-bottom: 3rem;
 }
 
 .proyect-item h5, .proyect-item h6, .proyect-item .portfolio-btn{
     transform: scale(0.7);
     transition: all 0.5s ease-in;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .proyect-item:hover h5, .proyect-item:hover h6, .proyect-item:hover .portfolio-btn{
@@ -184,17 +199,64 @@ body{
 } 
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: rgb(0,0,0);
+    background-color: rgb(2, 29, 68);
     padding: 0.7rem;
 }
 
 
-@media (min-width:576px){
+/* 4. CONTACTO */
 
-    
+#contact{
+    padding: 8rem 0 6rem 0;
+    background-color: rgb(2, 29, 68);
+    color: rgb(255, 255, 255);
+}
+
+#contact .underline-title{
+    background-color: rgb(255, 255, 255);
+}
+
+#contact h6{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 62, 85);
+    margin-bottom: 1.5rem;
+
+}
+
+/* FOOTER */
+
+footer{
+    padding: 3rem 0;
+    background-color: rgb(2, 29, 68);
+    color: rgb(255, 255, 255);
+
+}
+
+footer span{
+    color: rgb(255, 62, 85);
+    margin-left: 0.3rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width:576px) and (max-width:768px){
+
+    .proyect-item:hover .proyect-overlay h5{
+        font-size: 1.75rem;
+    }
+
+    .proyect-item:hover .proyect-overlay h6{
+        font-size: 1.4rem;
+    }
 }
 
 @media (min-width: 768px){
+
+    .cabecera{
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
     .cabecera h1{
         font-size: 2.75rem;
       }
@@ -206,13 +268,5 @@ body{
     .cabecera img{
         width: 15rem;
         height: 15rem;
-    }
-}
-
-@media (min-width:992px){
-    .cabecera{
-        height:100vh;
-        padding-top: 4.5rem;
-        padding-bottom: 0;
     }
 }
