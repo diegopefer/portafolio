@@ -28,11 +28,13 @@ body{
 /* lista redes sociales */
 .rrss a i{
     color: rgb(255, 255, 255) !important;
-    transition: all .5s ease-in;
+    transform: rotate(-360deg);
+    transition: all 1s;
 }
 
 .rrss a i:hover{
     color: rgb(255, 62, 85) !important;
+    transform: rotate(360deg);
 }
 
 /* barra de navegacion */
@@ -50,15 +52,16 @@ body{
     outline: none;
 }
 
-.navbar-brand{
-    font-size: 1.5rem !important;
-    color: rgb(255, 62, 85) !important;
-    font-weight: 700;
-    transition: all .5s ease-in;
+.navbar-brand img, footer img{
+    width: 50px;
+    height: 50px;
+    transform: rotate(-360deg) scale(1);
+    transition: all 1s;
+
 }
-.navbar-brand:hover{
+.navbar-brand img:hover, footer img:hover{
     
-    color: rgb(255, 255, 255) !important;
+    transform: rotate(360deg) scale(1.2);
    
 }
 
