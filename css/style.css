@@ -98,10 +98,11 @@ body{
 }
 
 .cabecera img{
-    border: 0.4rem solid rgb(255, 255, 255);
     width: 12rem;
     height: 12rem;
-    
+    border: 0.4rem solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-bottom: 2rem;
 }
 
 .cabecera h1{
