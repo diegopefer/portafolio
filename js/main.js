@@ -1,7 +1,7 @@
 /*---- SCRIPT DESPLAZAMIENTO SUAVE CON JQUERY, UTILIZANDO SU METODO ANIMATE --*/
 
 // añade eventos a los elementos del DOM seleccionados(evento click en este caso), funcion se ejecuta cuando se produzca el evento(click)
-$('.navbar-brand, .nav-link, footer a').on('click', function(e){
+$('.navbar-brand, .nav-link, footer div > a').on('click', function(e){
 
     e.preventDefault(); //cancela comportamiento del evento
 
